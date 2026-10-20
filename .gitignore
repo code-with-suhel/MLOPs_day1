@@ -2,7 +2,7 @@
 .venv/
 venv/
 # WRITE NAME OF YOUR CONDA ENVIRONMENT
-venv/  
+mlops_venv  
 
 # Python cache
 __pycache__/
@@ -26,5 +26,12 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
+ 
+# python_environment/
 
 python_environment/
+
+mlflow.db
+mlruns/
+notebooks/mlflow.db
+notebooks/mlruns/
